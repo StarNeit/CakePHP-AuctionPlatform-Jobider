@@ -1,0 +1,220 @@
+﻿
+
+Detail Of The Ps Quik COM
+
+Data base credientails :-
+
+username -  dbadmin
+password -  72FeeAbdAbsHai
+
+username – root
+password – 75GluMayHigSto
+
+
+
+Hello Samir ,
+Today we have worked on those modules , that you have required
+
+1.  Outgoing Recepients
+Please provide web service for this. It should be returning an array of dictionaries with values (name, email)
+Done 
+Here's link:- http://quik-com.com/api/outgoing_recepient?name=sapna&email=kalras483@gmail.com 
+
+2. Divisions
+- We only need one division (not separately for reply message and new message). Please create one web service and provide that
+- Based on a particular division ID there should be a web service which will return an array of dictionaries with values and field titles or whatever information is related.
+Done
+Here's link:- http://quik-com.com/api/division/117
+
+Please review and respons accordingly
+
+Regards, 
+Pnf Team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hello Shawn,
+
+Today we have worked on the following modules, Please check the link below.
+
+
+Backend Link :- 
+http://quik-com.com/webadmin
+
+Username:- admin
+Password:- admin
+
+
+Frontend Link :- 
+http://quik-com.com/login
+
+Username :- com 
+Password :- 1234
+
+1) Web Service of The New And Reply Message :
+http://quik-com.com/api/divisiondata/103
+Here 103 is the division id.
+In this you have show the detail of the New Message and Reply Message according to the division id.
+Reply Message will be in process.
+
+2) Manage New Message:
+http://quik-com.com/dropdowns
+
+In this section you have manage the new message, 
+
+3) Edit New Message :
+ This module is still working on process.
+  http://quik-com.com/dropdowns/edit/39 
+
+4) Edit The confirm Message:
+We have edit the confirm message, that you have show,when you edit the data in the manage page.
+
+5) Change the Sidebar Value:
+We have change the name of the “admin setting” as “admin settings”.
+Please Review Adn Respond Accordingly,
+
+Regards,
+PNF Team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hello Shawn ,
+
+Today we have worked on these module. Please check the link below.
+
+
+Backend Link:- 
+http://www.quik-com.com/webadmin
+
+Username:- admin
+Password:- admin
+
+Frontend Link:- 
+http://www.quik-com.com/login
+
+Username :-com
+Password :- 4321
+
+1) Redirection Issue :- 
+   The issue of the redirection after the “accept” has been solved.It will be work properly.
+  Here's Link:- http://www.quik-com.com/users/add 
+
+2) Edit New Message :- 
+   This module will working on process.
+   Here's Link :- http://quik-com.com/dropdowns/edit/39  
+
+3) Changes In Reply Message Screen:- 
+ We have changed the reply message, in which when we select the drop down type       the drop down value will be display.
+ In drop down value , in the left box  values are show  that we have added on   the  base of division id, and when we select the value in let box and click on  the “Add” ,selected value will be show in the right box.
+ Here's Link :- http://www.quik-com.com/dropdowns/replymessage 
+
+4) Web Service Of New And Reply Message :- 
+ We have created the web service of the new message and reply message screen.
+ In New Message , we have show the data of the new message screen, in which , if the type of the new message is “openentry”, it will be show the data on the base of the open entry type. If the type of new message is “drop down”, it will be show the data on the base of drop dwon type with the drop down values.The same process work on the reply message screen.
+Here's Link:- http://quik-com.com/api/divisiondata/103 
+
+5) Mange Reply Message :- 
+This module still in process.
+http://www.quik-com.com/dropdowns/managereply 
+
+
+Please Review And Respond Accordingly.
+
+Regards,
+PNF Team
+
+
+
+
+
+
+
+
+
+
+Hello Shawn, 
+
+Today we have work on these module. Please check the link below.
+
+Backend Link:- 
+http://www.quik-com.com/webadmin 
+
+Username :- admin 
+Password :- admin 
+
+
+Frontend Link:- 
+http://www.quik-com.com/login 
+
+Username :- com
+Password :- 4321
+
+
+Edit New Message :- 
+We have worked on the edit new message., in which you have edit the selected division in drop down list. 
+In this when you select the drop down type, the drop down value will be show, and when you select the open entry the drop down value will be hide.
+Here's Link :- http://www.quik-com.com/dropdowns/edit/57 
+
+New Message Mange :- 
+In this you have changed the status of all the fields using the bulk action , if you click on “go” button without selecting the activity, it will be show the error message, and if you select the activity as “active” and not select the field then it will show the error message again.
+If you select the field and also select the activity as “inactive”, the status of all the fields are inactive.
+Here's Link :- http://www.quik-com.com/dropdowns 
+
+Edit Reply Message :- 
+We have worked on the edit new message., in which you have edit the selected division in drop down list. 
+In this when you select the drop down type, the drop down value will be show, and when you select the open entry the drop down value will be hide.
+Here's Link :- http://www.quik-com.com/dropdowns/edit/57 
+
+
+Reply Message Mange :- 
+In this we have show all the fields of the reply message screen, in which you have change the status or delete the fields of the reply message 
+In this you have changed the status of all the fields using the bulk action , if you click on “go” button without selecting the activity, it will be show the error message, and if you select the activity as “active” and not select the field then it will show the error message again.
+If you select the field and also select the activity as “inactive”, the status of all the fields are inactive.
+Here's Link :- http://www.quik-com.com/dropdowns 
+
+   web service of new and reply message  :- 
+ We have created the web service of the new message and reply message screen.
+ In New Message , we have show the data of the new message screen, in which , if the type of the new message is “openentry”, it will be show the data on the base of the open entry type. If the type of new message is “drop down”, it will be show the data on the base of drop dwon type with the drop down values.The same process work on the reply message screen.
+Here's Link:- http://quik-com.com/api/divisiondata/103 
+Please review and respond accordingly.
+
+Regards,
+PNF Team 
+

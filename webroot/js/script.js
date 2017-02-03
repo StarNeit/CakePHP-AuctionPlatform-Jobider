@@ -1,0 +1,6 @@
+/* 2014 */
+function addElement(){if(counter==limit)
+{document.getElementById("mix").innerHTML+="<p>Maximum of 10 Record allowed!</p>";
+var e=document.getElementById("addElement");
+e.style.visibility="hidden";e.parentNode.removeChild(e)
+}else{var t=document.createElement("li");t.innerHTML='<label></label><br /><input maxlength="75" name="data[Job][additional_questions][]" size="72" type="text" value="" /> ';document.getElementById("mix").appendChild(t);counter++}}function toggleShow(e){ele=document.getElementById(e);if(ele.style.display=="none"){ele.style.display="";ele.style.filter="alpha(opacity=0)";ele.style.opacity=0;valueop=1;setTimeout("fadeIn()",openingdelay);document.getElementById("toggle").innerHTML="Hide Panel"}else{document.getElementById("toggle").innerHTML="Show Panel";valueop=9;setTimeout("fadeOut()",closingdelay)}}function fadeIn(){if(valueop>10){return false}ele.style.opacity=valueop/10;ele.style.filter="alpha(opacity="+valueop*10+")";valueop=valueop+1;setTimeout("fadeIn()",openingspeed)}function fadeOut(){if(valueop<1){ele.style.display="none";return false}ele.style.opacity=valueop/10;ele.style.filter="alpha(opacity="+valueop*10+")";valueop=valueop-1;setTimeout("fadeOut()",closingspeed)}var counter=0;var limit=6;var openingdelay=200;var closingdelay=100;var openingspeed=25;var closingspeed=15

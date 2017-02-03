@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Image Tweet</title>
+<script language="javascript">
+function validate(){
+
+	
+	var val = document.getElementById('img').value;
+	var val2 = document.getElementById('txt').value;
+	var msg = '';
+	if(val == '')
+	{
+		msg+='Select An Image\n';
+		
+	}
+	if(val2 == '')
+	{
+	    msg+='Enter Your Tweet';
+		
+	}
+	
+	if(msg != '')
+	{
+		alert(msg);
+		return false;	
+	}
+	else
+	{
+		
+		return true;
+	}
+	
+	}
+</script>
+</head>
+
+<body>
+<form method="post" action="start.php" enctype="multipart/form-data" onsubmit="javascript:return validate();" >
+Insert Your Image : <input type="file" name="img" id="img"/><br/><br/>
+Insert Your Tweet : <input type="text" name="txt" id="txt"/><br/><br/>
+<input type="submit" name="sub" id="sub" value="Submit"/>
+</form>
+</body>
+</html>

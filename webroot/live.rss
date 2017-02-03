@@ -1,0 +1,69 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+
+<channel>
+
+<generator>RSS Builder by B!Soft</generator>
+
+<title>RSS Feed</title>
+
+<link>http://www.jobider.com/blogs</link>
+
+<description>Jobider offers fast, secure, flexible and affordable employment solutions to business owners while providing several online jobs for individuals seeking to build a career without being confined to an office space. In fact, freelancers are encouraged to work from anywhere in the world. At Jobider, we provide independent and consultancy-assisted freelancers and agencies to small and large companies as well as private individuals</description>
+
+<language>en-us</language>
+
+<webMaster>jafar@howways.com</webMaster>
+
+<copyright>Jobider</copyright>
+
+
+<item>
+
+<title>Jobider Career</title>
+
+<pubDate>Sat, 1 Aug 2015 01:09:19 +0900</pubDate>
+
+<link>http://www.jobider.com/career</link>
+
+<author>jafar@howways.com</author>
+
+<category>Career</category>
+
+
+<description>
+
+<![CDATA[A Web Developer/Programmer is responsible for the coding, innovative design, as well as modifications of websites from layout to function, according to specifications made by the client. He/she will work closely with project managers, strategists, design team members, and web content writers to develop specifications and make recommendations with the use of new and emerging technology. ]]>
+
+</description>
+
+</item>
+
+
+<item>
+
+<title>Jobider online jobs</title>
+
+<pubDate>Sat, 1 Aug 2015 01:05:43 +0900</pubDate>
+
+<link>http://www.jobider.com/blogs/</link>
+
+<comments>Find Jobs at Jobider</comments>
+
+<category>Jobs Freelance Jobs</category>
+
+
+<description>
+
+<![CDATA[Jobider showcases the skills of qualified freelancers in different fields: IT, Mobile and Web Development, Accountancy, Architecture, Engineering, Sales, Marketing, Writing and Translation, Business Development, Customer Service, Administrative Support, and many more. Jobider is the fastest and most efficient online job platform available to business owners as well as qualified job-bidders/freelancers. It is a secure site where all members are verified prior to being selected for projects.]]>
+
+</description>
+
+</item>
+
+</channel>
+
+</rss>

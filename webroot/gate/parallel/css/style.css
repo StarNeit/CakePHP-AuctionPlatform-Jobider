@@ -1,0 +1,211 @@
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#main{
+    width:960px;
+    margin: 10px auto;
+    font-family:raleway;
+}
+span{
+    color:red;
+}
+hr{
+    border:0;
+    border-bottom:1px solid #ccc;
+    margin: 10px -40px;
+    margin-bottom: 30px;
+}
+#container{
+    width: 54%;
+    float: left;
+    border-radius: 10px;
+    font-family:raleway;
+    border: 2px solid #ccc;
+    padding: 10px 40px 10px;
+    margin-top: 2px;
+    margin-left: 180px;
+}
+input[type=radio]{
+    width: 6.5%;
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family:raleway;
+    margin-right: 10px;
+} 
+input[type=submit]{
+    width: 100%;
+    background-color: #FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+a{
+    text-decoration:none;
+    color: cornflowerblue;
+}
+i{
+    color: cornflowerblue;
+}
+#formget{
+    float:right;
+}	
+#item-container {
+    width: 247px;
+    height: 308px;
+    margin-left: 8px;
+    float: left;
+    margin-bottom: 40px;
+    /* border: 1px solid rgb(226, 226, 226); */
+
+}
+#merchants-details{
+    width: 85%;
+    height: 75px;
+    margin-top: 19px;
+    float: right;
+    border: 3px solid rgb(226, 226, 226);
+}
+#Button-container{
+    width:100px;
+    height:67px;
+    border:1px solid black;
+}
+i{
+    float: right;
+    color: rgba(0, 0, 0, 0.13);
+    margin: -75px 8px;
+}
+p#title-text{
+    float: left;
+    margin: 11px;
+}
+#results {
+    width: 100%;
+    margin-top: 30px;
+    //border: 1px solid #ccc;
+    table-layout: auto;
+    margin-bottom: 30px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.head {
+    font-size: 15px;
+    font-family: "proxima_novasemibold", sans-serif;
+    background: #FEFFED;
+    color: #1d4c55;
+    border: 1px solid #ccc;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.head th{
+    //border-right: 1px solid #ccc;
+    //border-bottom: 1px solid #ccc;
+    line-height: normal;
+    padding: 10px 0px;
+    text-align: left;
+    padding-left: 3%;
+}
+td {
+    //border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    line-height: normal;
+    padding: 10px 0px;
+    text-align: left;
+    padding-left:3%;
+    vertical-align: top;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+#return {
+    width: 492px;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    font-family: raleway;
+    border: 2px solid #ccc;
+    padding: 10px 40px 30px;
+    margin-bottom: 50px;
+}
+#return h3#success {
+    text-align: center;
+    font-size: 24px;
+    color: green;
+    margin-bottom: 10px;
+}
+#return P {
+    text-align: left;
+}
+#return .back_btn {
+    margin-top: 30px;
+    text-align: center;
+}
+#btn {
+    width: 100%;
+    background-color: #FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 10px 70px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration:none;
+    color: #33BADB;
+}
+img#paypal_logo {
+    clear: both;
+    float: right;
+    margin-right: 165px;
+    margin-top: 1%;
+    padding-bottom: 15px;
+}
+.success_main_heading{
+    margin-left: -40%;
+
+}
+#return h3#fail{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    color: red;
+    margin-bottom: 10px;
+}
+.red{
+    color:red;
+    font-weight: bold;
+}
+h2{
+    background-color: #FEFFED;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    margin: -10px -40px;
+    padding: 15px;
+}

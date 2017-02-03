@@ -1,0 +1,328 @@
+2014-12-18 04:11:28 Notice: Notice (8): Undefined index: User in [/var/www/clients/client2/web374/web/developer/app/Controller/LoginController.php, line 72]
+Trace:
+LoginController::index() - APP/Controller/LoginController.php, line 72
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 05:35:33 Notice: Notice (8): Undefined index: Auth in [/var/www/clients/client2/web374/web/developer/app/View/Freelancer/index.ctp, line 89]
+Trace:
+include - APP/View/Freelancer/index.ctp, line 89
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::render() - CORE/Cake/View/View.php, line 465
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 05:44:22 Notice: Notice (8): Undefined index: Auth in [/var/www/clients/client2/web374/web/developer/app/View/Freelancer/index.ctp, line 89]
+Trace:
+include - APP/View/Freelancer/index.ctp, line 89
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::render() - CORE/Cake/View/View.php, line 465
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 06:54:00 Notice: Notice (8): Undefined index: select in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 34]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 06:54:19 Notice: Notice (8): Undefined variable: _this in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 30]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 06:54:19 Notice: Notice (8): Trying to get property of non-object in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 30]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 06:54:19 Notice: Notice (8): Undefined index: select in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 34]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 06:54:34 Notice: Notice (8): Undefined index: select in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 34]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 06:55:11 Notice: Notice (8): Undefined index: select in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 34]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 06:55:46 Notice: Notice (8): Undefined index: select in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 35]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 06:57:58 Notice: Notice (8): Undefined index: Auth in [/var/www/clients/client2/web374/web/developer/app/Controller/FreelancerController.php, line 49]
+Trace:
+FreelancerController::edit_basic_info() - APP/Controller/FreelancerController.php, line 49
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 07:01:41 Notice: Notice (8): Undefined variable: id in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 33]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 33
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 07:02:05 Notice: Notice (8): Undefined index: select in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 31]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 31
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 07:02:05 Notice: Notice (8): Undefined variable: id in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 33]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 33
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 07:02:51 Notice: Notice (8): Undefined variable: id in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 33]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 33
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 07:04:06 Notice: Notice (8): Undefined variable: id in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 33]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 33
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 07:06:18 Notice: Notice (8): Undefined variable: id in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 33]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 33
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 07:06:30 Notice: Notice (8): Undefined variable: id in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 33]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 33
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-12-18 07:07:30 Notice: Notice (8): Undefined index: select in [/var/www/clients/client2/web374/web/developer/app/Controller/ClientController.php, line 33]
+Trace:
+ClientController::job_data() - APP/Controller/ClientController.php, line 33
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2015-05-21 06:34:06 Notice: Notice (8): Undefined variable: Membership_plans in [/home/jobider/public_html/app/View/Elements/freelancer_header.ctp, line 269]
+Trace:
+include - APP/View/Elements/freelancer_header.ctp, line 269
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::_renderElement() - CORE/Cake/View/View.php, line 1194
+View::element() - CORE/Cake/View/View.php, line 411
+include - APP/View/Layouts/front.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::renderLayout() - CORE/Cake/View/View.php, line 528
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2015-05-21 06:42:09 Notice: Notice (8): Undefined variable: Membership_plans in [/home/jobider/public_html/app/View/Elements/freelancer_header.ctp, line 269]
+Trace:
+include - APP/View/Elements/freelancer_header.ctp, line 269
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::_renderElement() - CORE/Cake/View/View.php, line 1194
+View::element() - CORE/Cake/View/View.php, line 411
+include - APP/View/Layouts/front.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::renderLayout() - CORE/Cake/View/View.php, line 528
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2015-05-21 06:43:18 Notice: Notice (8): Undefined variable: Membership_plans in [/home/jobider/public_html/app/View/Elements/freelancer_header.ctp, line 269]
+Trace:
+include - APP/View/Elements/freelancer_header.ctp, line 269
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::_renderElement() - CORE/Cake/View/View.php, line 1194
+View::element() - CORE/Cake/View/View.php, line 411
+include - APP/View/Layouts/front.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::renderLayout() - CORE/Cake/View/View.php, line 528
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2015-05-21 06:44:50 Notice: Notice (8): Undefined variable: Membership_plans in [/home/jobider/public_html/app/View/Elements/freelancer_header.ctp, line 269]
+Trace:
+include - APP/View/Elements/freelancer_header.ctp, line 269
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::_renderElement() - CORE/Cake/View/View.php, line 1194
+View::element() - CORE/Cake/View/View.php, line 411
+include - APP/View/Layouts/front.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::renderLayout() - CORE/Cake/View/View.php, line 528
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2015-05-21 06:44:54 Notice: Notice (8): Undefined variable: Membership_plans in [/home/jobider/public_html/app/View/Elements/freelancer_header.ctp, line 269]
+Trace:
+include - APP/View/Elements/freelancer_header.ctp, line 269
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::_renderElement() - CORE/Cake/View/View.php, line 1194
+View::element() - CORE/Cake/View/View.php, line 411
+include - APP/View/Layouts/front.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::renderLayout() - CORE/Cake/View/View.php, line 528
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2015-05-21 06:45:02 Notice: Notice (8): Undefined variable: Membership_plans in [/home/jobider/public_html/app/View/Elements/freelancer_header.ctp, line 269]
+Trace:
+include - APP/View/Elements/freelancer_header.ctp, line 269
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::_renderElement() - CORE/Cake/View/View.php, line 1194
+View::element() - CORE/Cake/View/View.php, line 411
+include - APP/View/Layouts/front.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::renderLayout() - CORE/Cake/View/View.php, line 528
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2015-05-21 06:45:40 Notice: Notice (8): Undefined variable: Membership_plans in [/home/jobider/public_html/app/View/Elements/freelancer_header.ctp, line 269]
+Trace:
+include - APP/View/Elements/freelancer_header.ctp, line 269
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::_renderElement() - CORE/Cake/View/View.php, line 1194
+View::element() - CORE/Cake/View/View.php, line 411
+include - APP/View/Layouts/front.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::renderLayout() - CORE/Cake/View/View.php, line 528
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2015-05-21 06:45:42 Notice: Notice (8): Undefined variable: Membership_plans in [/home/jobider/public_html/app/View/Elements/freelancer_header.ctp, line 269]
+Trace:
+include - APP/View/Elements/freelancer_header.ctp, line 269
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::_renderElement() - CORE/Cake/View/View.php, line 1194
+View::element() - CORE/Cake/View/View.php, line 411
+include - APP/View/Layouts/front.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::renderLayout() - CORE/Cake/View/View.php, line 528
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2015-05-21 06:45:45 Notice: Notice (8): Undefined variable: Membership_plans in [/home/jobider/public_html/app/View/Elements/freelancer_header.ctp, line 269]
+Trace:
+include - APP/View/Elements/freelancer_header.ctp, line 269
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::_renderElement() - CORE/Cake/View/View.php, line 1194
+View::element() - CORE/Cake/View/View.php, line 411
+include - APP/View/Layouts/front.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 934
+View::_render() - CORE/Cake/View/View.php, line 896
+View::renderLayout() - CORE/Cake/View/View.php, line 528
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 954
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+

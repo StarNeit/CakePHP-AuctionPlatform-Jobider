@@ -1,0 +1,135 @@
+﻿Hello,
+
+Following should be consider as the work done with Jobider:
+
+(a)Backend Login:
+
+http://jobider.pnf-sites.info/developer/webadmin
+
+Username:admin
+Paswword:admin
+
+(i)User Management:
+
+-Frelancers: http://jobider.pnf-sites.info/developer/webadmin/users
+
+Here you will have all the users as freelancer(s).
+
+-Clients: http://jobider.pnf-sites.info/developer/webadmin/users/employer
+
+here,you will see all the user(s) as client(s) either as Company user or Individual one.
+
+(ii)Blogs Management:
+
+-Add Blog:http://jobider.pnf-sites.info/developer/webadmin/blogs/add
+
+-Manage Blog: http://jobider.pnf-sites.info/developer/webadmin/blogs
+
+
+(iii)Pages:
+
+-Add Page: http://jobider.pnf-sites.info/developer/webadmin/pages/add
+
+-Manage Page: http://jobider.pnf-sites.info/developer/webadmin/pages
+
+(iv)Help:
+
+-Add Help Section: http://jobider.pnf-sites.info/developer/webadmin/helps/add
+
+-Manage Help Section: http://jobider.pnf-sites.info/developer/webadmin/helps
+
+(v)Category:
+
+-Add Category: http://jobider.pnf-sites.info/developer/webadmin/categories/add 
+
+-Manage Category: http://jobider.pnf-sites.info/developer/webadmin/categories
+
+(vi)Sub Category:
+
+-Add Sub Category: http://jobider.pnf-sites.info/developer/webadmin/subcategories/add 
+
+-Manage Sub Category: http://jobider.pnf-sites.info/developer/webadmin/subcategories
+
+(Vii) Skills:
+
+-Add Skills:- http://jobider.pnf-sites.info/developer/webadmin/skills/add
+
+
+Backend Logout:You can logout from the top right corner and then drop down with the “admin”.
+
+
+(b)Front Site:
+http://jobider.pnf-sites.info/developer/
+
+
+Join:By clicking on  Join you will lead to register page as:
+
+http://jobider.pnf-sites.info/developer/users
+
+please join from here  either as a client or as a freelancer.
+
+You will get and email alert after registering and then you have to refere  to that mail for activating acoount,only then you can login with your credentials provided.
+
+
+1. Sign in:http://jobider.pnf-sites.info/developer/login
+
+Please fill up your credentails and enjoy  the services with Jobider.
+
+
+Client Dashboard:http://jobider.pnf-sites.info/developer/client
+
+Free Lancer Dashboard:http://jobider.pnf-sites.info/developer/freelancer
+
+Freelancer Setting/Change Password:http://jobider.pnf-sites.info/developer/freelancer/settings
+
+My Profile/Edit Profile as a Freelancer :http://jobider.pnf-sites.info/developer/freelancer/editprofile
+You can edit your basic details  and profile details as freelancer.
+
+
+
+Will update you with the further progress.
+
+Thanks and Regards,
+PNF Team
+
+
+
+
+Hello,
+
+Today we have worked on these module. Please check the link below.
+----------------------------------------------------
+Front End :- 
+http://jobider.pnf-sites.info/developer
+
+Freelancer:- 
+http://jobider.pnf-sites.info/developer/login
+
+username:- anchalpnf14@gmail.com 
+password:- 123456
+
+Client:- 
+
+username:- skamboj261@gmail.com
+password :- 123456
+----------------------------------------------
+
+Find Jobs :- 
+In this section you have get the jobs with category.
+http://jobider.pnf-sites.info/developer/freelancer/findjobs
+
+when you click on the sub category of the category, it will be redirect on this page :
+http://jobider.pnf-sites.info/developer/freelancer/findjobsbycategory/1
+ In which you have get the jobs based on the sub category id.
+when you click on the "more" button it will be redirect on th is page :
+http://jobider.pnf-sites.info/developer/freelancer/jobdetail/1
+In which you have get the job details based on the job id.
+
+Please review and respond accordingly 
+
+Regards,
+PNF Team
+
+
+
+

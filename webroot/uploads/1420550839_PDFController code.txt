@@ -1,0 +1,214 @@
+function generatePdf($id = null){
+           $this->autoRender = false;
+           $this->loadModel('Citation');
+           $CitationData=$this->Citation->findById($id);
+           $company_name = $CitationData['Citation']['business_name'];
+           $country_name = $CitationData['Citation']['country'];
+           $package = $CitationData['Citation']['package'];
+           $address = $CitationData['Citation']['address'];
+           $city = $CitationData['Citation']['city'];
+           $state = $CitationData['Citation']['state'];
+           $zip = $CitationData['Citation']['zip'];
+           $phone = $CitationData['Citation']['phone'];
+           $additional_phone = $CitationData['Citation']['additional_phone'];
+           $business_email = $CitationData['Citation']['business_email'];
+           $website = $CitationData['Citation']['website'];
+           $category = $CitationData['Citation']['category'];
+           $keyword = $CitationData['Citation']['keyword'];
+           $short_desc = $CitationData['Citation']['short_desc'];
+           $long_desc = $CitationData['Citation']['long_desc'];
+           $hour_of_operation = $CitationData['Citation']['hour_of_operation'];
+           $worker = $CitationData['Citation']['worker'];
+           $payment_method = $CitationData['Citation']['payment_method'];
+           $facebook_page_url = $CitationData['Citation']['facebook_page_url'];
+           $year_est = $CitationData['Citation']['year_est'];
+           $linkedin = $CitationData['Citation']['linkedin'];
+           $offers = $CitationData['Citation']['offers'];
+           $twitter_url = $CitationData['Citation']['twitter_url'];
+           $youtube_video_url = $CitationData['Citation']['youtube_video_url'];
+           $instruction = $CitationData['Citation']['instruction'];
+           $service_type = ucfirst($CitationData['Citation']['service_type']);
+           
+                require_once(INCLUDE_PATH.'tcpdf/config/lang/eng.php');
+	require_once(INCLUDE_PATH.'tcpdf/tcpdf.php');
+            //$date=$_SESSION['Appointment']['date'];
+        
+	
+// create new PDF document
+$pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+
+// set document information
+$pdf->SetCreator(PDF_CREATOR);
+//$pdf->SetAuthor('Nicola Asuni');
+//$pdf->SetTitle('TCPDF Example 048');
+//$pdf->SetSubject('TCPDF Tutorial');
+//$pdf->SetKeywords('TCPDF, PDF, example, test, guide');
+
+// set default header data
+$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE,PDF_HEADER_STRING);
+
+// set header and footer fonts
+$pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
+$pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
+
+// set default monospaced font
+$pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
+
+//set margins
+$pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
+$pdf->SetHeaderMargin(PDF_MARGIN_HEADER);
+$pdf->SetFooterMargin(PDF_MARGIN_FOOTER);
+
+//set auto page breaks
+$pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
+
+//set image scale factor
+$pdf->setImageScale(PDF_IMAGE_SCALE_RATIO);
+
+//set some language-dependent strings
+$pdf->setLanguageArray($l);
+
+// ---------------------------------------------------------
+
+// set font
+$pdf->SetFont('helvetica', 'B', 20);
+
+// add a page
+$pdf->AddPage();
+
+//$pdf->Write(0, 'Example of HTML tables', '', 0, 'L', true, 0, false, false, 0);
+
+$pdf->SetFont('helvetica', '', 8);
+
+// -----------------------------------------------------------------------------
+$tbl = <<<EOD
+<br><br>
+<table width="100%" border="0" cellspacing="0" cellpadding="3" bgcolor="#EEEEEE">
+  <tr >
+    <td height="45" colspan="4" bgcolor="#00ABE9" valign="middle"><br><br><font size="+3" color="#fff"><b>&nbsp;$service_type</b></font></td>
+  </tr><br><br>
+  <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Company Name</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$company_name</font> </td>
+  </tr>
+  <tr>
+     <td width="22%" align = "left" valign="top" class="companyheading"><font size="10em">Country Selected</font></td>
+     <td width="5%" align = "left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align = "left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$country_name</font> </td>
+  </tr>
+  <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Package Selected</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$package</font> </td>
+  </tr>
+   <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Address</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$address</font> </td>
+  </tr>
+  <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">City</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$city</font> </td>
+  </tr>
+          <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">State</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$state</font> </td>
+  </tr>
+          <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Zip</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$zip</font> </td>
+  </tr>
+          <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Business Phone</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$phone</font> </td>
+  </tr>
+          <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Additional Phone</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$additional_phone</font> </td>
+  </tr>
+          <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Business Email</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$business_email</font> </td>
+  </tr>
+        <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Website</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$website</font> </td>
+  </tr>
+        <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Business Category</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$category</font> </td>
+  </tr>
+        <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Keyword</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$keyword</font> </td>
+  </tr>
+         <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Short Description</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$short_desc</font> </td>
+  </tr>
+         <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Description</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$long_desc</font> </td>
+  </tr>
+         <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Work Days</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$hour_of_operation</font> </td>
+  </tr>
+         <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Payment Method</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$payment_method</font> </td>
+  </tr>
+         <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Number of Workers</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$worker</font> </td>
+  </tr>
+         <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Year EST</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$year_est</font> </td>
+  </tr>
+         <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Facebook Fan Page</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$facebook_page_url</font> </td>
+  </tr>
+         <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Linkedin</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$linkedin</font> </td>
+  </tr>
+        <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Twitter URL</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$twitter_url</font> </td>
+  </tr>
+        <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Offers</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$offers</font> </td>
+  </tr>
+         <tr>
+     <td width="22%" align="left" valign="top" class="companyheading"><font size="10em">Special Instructions</font></td>
+     <td width="5%" align="left" valign="top"><font size="10em">:</font></td>
+     <td width="73%" align="left" valign="top" class="abc_company"><font size="8em" color="#A09999">&nbsp;$instruction</font> </td>
+  </tr>
+        <br/><br/>  
+        
+</table>
+EOD;
+$pdf->writeHTML($tbl, true, false, false, false, '');
